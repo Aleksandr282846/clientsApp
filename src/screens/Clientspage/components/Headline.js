@@ -1,13 +1,11 @@
-import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import React from "react";
+import { Text, View, StyleSheet } from "react-native";
 
 export default function Headline() {
   return (
-        <View>
-        <Text style={styles.header}>
-        Клиенты
-        </Text>
-        </View>
+    <View>
+      <Text style={styles.header}>Клиенты</Text>
+    </View>
   );
 }
 
@@ -20,5 +18,4 @@ const styles = StyleSheet.create({
     fontWeight: 700,
     lineHeight: 16,
   },
-
 });

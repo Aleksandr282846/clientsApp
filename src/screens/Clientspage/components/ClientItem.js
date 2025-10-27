@@ -27,11 +27,13 @@ const styles = StyleSheet.create({
     height: 92,
     flexDirection: 'row',
     backgroundColor: 'white',
+    marginBottom: 3,
     marginTop: 16,
     marginLeft: 24,
     marginRight: 24,
     borderRadius: 16,
     alignItems: 'center',
+
   },
 
   avatar: {
